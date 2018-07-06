@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2E48FD420EF06DF00F1DAB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FD320EF06DF00F1DAB4 /* main.cpp */; };
+		A2E48FDF20EF07B400F1DAB4 /* CreateTestData.java in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FDA20EF07B300F1DAB4 /* CreateTestData.java */; };
+		A2E48FE020EF07B400F1DAB4 /* Hdfs.java in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FDB20EF07B300F1DAB4 /* Hdfs.java */; };
+		A2E48FE120EF07B400F1DAB4 /* Test.java in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FDC20EF07B300F1DAB4 /* Test.java */; };
+		A2E48FE220EF07B400F1DAB4 /* Application.java in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FDD20EF07B300F1DAB4 /* Application.java */; };
+		A2E48FE320EF07B400F1DAB4 /* Web.java in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FDE20EF07B300F1DAB4 /* Web.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,11 @@
 
 /* Begin PBXFileReference section */
 		A2E48FD020EF06DF00F1DAB4 /* internship_code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = internship_code; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2E48FD320EF06DF00F1DAB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2E48FDA20EF07B300F1DAB4 /* CreateTestData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CreateTestData.java; sourceTree = "<group>"; };
+		A2E48FDB20EF07B300F1DAB4 /* Hdfs.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Hdfs.java; sourceTree = "<group>"; };
+		A2E48FDC20EF07B300F1DAB4 /* Test.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Test.java; sourceTree = "<group>"; };
+		A2E48FDD20EF07B300F1DAB4 /* Application.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Application.java; sourceTree = "<group>"; };
+		A2E48FDE20EF07B300F1DAB4 /* Web.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Web.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		A2E48FD220EF06DF00F1DAB4 /* internship_code */ = {
 			isa = PBXGroup;
 			children = (
-				A2E48FD320EF06DF00F1DAB4 /* main.cpp */,
+				A2E48FDD20EF07B300F1DAB4 /* Application.java */,
+				A2E48FDA20EF07B300F1DAB4 /* CreateTestData.java */,
+				A2E48FDB20EF07B300F1DAB4 /* Hdfs.java */,
+				A2E48FDC20EF07B300F1DAB4 /* Test.java */,
+				A2E48FDE20EF07B300F1DAB4 /* Web.java */,
 			);
 			path = internship_code;
 			sourceTree = "<group>";
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E48FD420EF06DF00F1DAB4 /* main.cpp in Sources */,
+				A2E48FE220EF07B400F1DAB4 /* Application.java in Sources */,
+				A2E48FE120EF07B400F1DAB4 /* Test.java in Sources */,
+				A2E48FE320EF07B400F1DAB4 /* Web.java in Sources */,
+				A2E48FE020EF07B400F1DAB4 /* Hdfs.java in Sources */,
+				A2E48FDF20EF07B400F1DAB4 /* CreateTestData.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
